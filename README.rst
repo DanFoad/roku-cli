@@ -3,7 +3,7 @@ roku-cli
 
 Interactively control your Roku device from the command-line with vim-style key bindings.
 
-Forked from https://github.com/ncmiller/roku-cli
+Forked from https://github.com/ncmiller/roku-cli because I wanted to type on the keyboard too
 
 Installation
 ------------
