@@ -141,6 +141,7 @@ class RokuCLI():
       initial = k
 
   def step_to(self, start, end):
+    time.sleep(0.1)
     if start[0] != end[0]:
       m = 1 if start[0] < end[0] else -1
       if keys[start[0] + m][start[1]] != '~':
@@ -152,8 +153,6 @@ class RokuCLI():
         self.move_horizontal(m)
         return (start[0], start[1] + m)
     self.roku.select()
-    if keys[end[0]][end[1]] == 'C':
-      time.sleep(1)
     return (-1, -1)
 
   def move_vertical(self, m):
