@@ -8,13 +8,7 @@ Forked from https://github.com/ncmiller/roku-cli because I wanted to type on the
 Installation
 ------------
 
-::
-
-    pip install rokucli
-
-Or to install the latest source::
-
-   git clone https://github.com/ncmiller/roku-cli.git
+   git clone https://github.com/danfoad/roku-cli.git
    cd roku-cli
    python setup.py install
 
